@@ -5,4 +5,5 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^polls_api/', include('polls_api.urls')),
+    url(r'^snippets/', include('snippets.urls')),
 ]
